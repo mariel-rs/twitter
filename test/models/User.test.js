@@ -11,7 +11,6 @@ describe("Unit tests for User class", () => {
         expect(user.bio).toBe("bio")
         expect(user.dateCreated).not.toBeUndefined()
         expect(user.lastUpdated).not.toBeUndefined()
-        //expect(user.lastUpdated).toStrictEqual() // for date handling
     })
     test("Verify getters", () => {
         
